@@ -8,8 +8,8 @@
 
 ## Deno 部署
 
-1. 免费创建一个 Gemini API Key [https://aistudio.google.com](https://aistudio.google.com)
-1. 点击 [Fork](https://github.com/tech-shrimp/gemini-playground/fork) 本项目
+1. 免费创建一个 Gemini API Key [https://aistudio.google.com](https://aistudio.google.com/app/apikey)
+1. 点击 [Fork](https://github.com/trueai-org/gemini/fork) 本项目
 2. 登录/注册 https://dash.deno.com/
 3. 点击创建项目 https://dash.deno.com/new_project
 4. 选择此项目，填写项目名字（分配域名）
