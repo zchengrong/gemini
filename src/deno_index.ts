@@ -1,29 +1,14 @@
-const getContentType = (path: string): string => {
-  const ext = path.split('.').pop()?.toLowerCase() || '';
-  const types: Record<string, string> = {
-    'js': 'application/javascript',
-    'css': 'text/css',
-    'html': 'text/html',
-    'json': 'application/json',
-    'png': 'image/png',
-    'jpg': 'image/jpeg',
-    'jpeg': 'image/jpeg',
-    'gif': 'image/gif'
-  };
-  return types[ext] || 'text/plain';
-};
-
 async function handleWebSocket(req: Request): Promise<Response> {
   const { socket: clientWs, response } = Deno.upgradeWebSocket(req);
-  
+
   const url = new URL(req.url);
   const targetUrl = `wss://generativelanguage.googleapis.com${url.pathname}${url.search}`;
-  
+
   console.log('Target URL:', targetUrl);
-  
+
   const pendingMessages: string[] = [];
   const targetWs = new WebSocket(targetUrl);
-  
+
   targetWs.onopen = () => {
     console.log('Connected to Gemini');
     pendingMessages.forEach(msg => targetWs.send(msg));
@@ -94,37 +79,12 @@ async function handleRequest(req: Request): Promise<Response> {
   }
 
   if (url.pathname.endsWith("/chat/completions") ||
-      url.pathname.endsWith("/embeddings") ||
-      url.pathname.endsWith("/models")) {
+    url.pathname.endsWith("/embeddings") ||
+    url.pathname.endsWith("/models")) {
     return handleAPIRequest(req);
   }
 
-  // 静态文件处理
-  try {
-    let filePath = url.pathname;
-    if (filePath === '/' || filePath === '/index.html') {
-      filePath = '/index.html';
-    }
-
-    const fullPath = `${Deno.cwd()}/src/static${filePath}`;
-
-    const file = await Deno.readFile(fullPath);
-    const contentType = getContentType(filePath);
-
-    return new Response(file, {
-      headers: {
-        'content-type': `${contentType};charset=UTF-8`,
-      },
-    });
-  } catch (e) {
-    console.error('Error details:', e);
-    return new Response('Not Found', { 
-      status: 404,
-      headers: {
-        'content-type': 'text/plain;charset=UTF-8',
-      }
-    });
-  }
+  return new Response('ok');
 }
 
 Deno.serve(handleRequest); 
