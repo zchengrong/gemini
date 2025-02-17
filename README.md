@@ -31,3 +31,8 @@ Mac/Linux 安装 Deno:
 > cd gemini
 
 > deno run --allow-net --allow-read src/deno_index.ts
+
+## 鸣谢
+
+- https://github.com/tech-shrimp/gemini-playground
+- https://github.com/PublicAffairs/openai-gemini
