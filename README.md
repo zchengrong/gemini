@@ -6,6 +6,11 @@
 
 兼容的OpenAI格式，可对接AI编程，接入ChatBox、Cherry Studio、Cursor 等 AI 客户端。
 
+## 分享
+
+- 市面上最强大，完全免费开源的 [Midjourney API](https://github.com/trueai-org/midjourney-proxy) 免费绘图平台。
+- 一个阿里云盘官方 API 授权的自动同步和备份工具 [MDrive](https://github.com/trueai-org/mdrive)，支持磁盘挂载到本地。
+
 ## Deno 部署
 
 1. 免费创建一个 Gemini API Key [https://aistudio.google.com](https://aistudio.google.com/app/apikey)
