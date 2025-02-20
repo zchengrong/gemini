@@ -9,7 +9,7 @@
 ## 分享
 
 - 市面上最强大，完全免费开源的 [Midjourney API](https://github.com/trueai-org/midjourney-proxy) 免费绘图平台。
-- 一个阿里云盘官方 API 授权的自动同步和备份工具 [MDrive](https://github.com/trueai-org/mdrive)，支持磁盘挂载到本地。
+- 阿里云盘官方 API 授权的自动同步和备份工具 [MDrive](https://github.com/trueai-org/mdrive)，支持挂载到本地磁盘。
 
 ## Deno 部署
 
