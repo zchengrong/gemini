@@ -4,7 +4,7 @@
 
 免费使用 Gemini 地表最强大的 100万 Token 上下文模型。
 
-兼容的OpenAI格式，可对接AI编程，接入ChatBox、Cherry Studio、Cursor、Cline 等 AI 客户端。
+兼容的 OpenAI 格式，可对接 AI 编程，接入ChatBox、Cherry Studio、Cursor、Cline 等 AI 客户端。
 
 ## 分享
 
