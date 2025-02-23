@@ -6,14 +6,14 @@
 
 兼容的 OpenAI 格式，可对接 AI 编程，接入ChatBox、Cherry Studio、Cursor、Cline 等 AI 客户端。
 
-> Bilibili 视频教程：<https://www.bilibili.com/video/BV1DDA3eEEYn/>
-
 ## 分享
 
 - 市面上最强大，完全免费开源的 [Midjourney API](https://github.com/trueai-org/midjourney-proxy) 免费绘图平台。
 - 阿里云盘官方 API 授权的自动同步和备份工具 [MDrive](https://github.com/trueai-org/mdrive)，支持挂载到本地磁盘。
 
 ## Deno 部署
+
+> Bilibili 视频教程：<https://www.bilibili.com/video/BV1DDA3eEEYn/>
 
 1. 免费创建一个 Gemini API Key [https://aistudio.google.com](https://aistudio.google.com/app/apikey)
 1. 点击 [Fork](https://github.com/trueai-org/gemini/fork) 本项目（万分感谢帮助点个 `Star`）
