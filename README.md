@@ -6,6 +6,8 @@
 
 兼容的 OpenAI 格式，可对接 AI 编程，接入ChatBox、Cherry Studio、Cursor、Cline 等 AI 客户端。
 
+> Bilibili 视频教程：<https://www.bilibili.com/video/BV1DDA3eEEYn/>
+
 ## 分享
 
 - 市面上最强大，完全免费开源的 [Midjourney API](https://github.com/trueai-org/midjourney-proxy) 免费绘图平台。
