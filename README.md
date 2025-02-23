@@ -8,9 +8,9 @@
 
 ## 分享
 
-- 市面上最强大，完全免费开源的 [Midjourney API](https://github.com/trueai-org/midjourney-proxy) 免费绘图平台。
-- 阿里云盘官方 API 授权的自动同步和备份工具 [MDrive](https://github.com/trueai-org/mdrive)，支持挂载到本地磁盘。
-- 使用 Deno 免费代理马斯克 Grok3，免登录，国内直连，不限地区/不限网络/不限设备，打开即用，开源地址：[Grok](https://github.com/trueai-org/grok)
+- [Midjourney API](https://github.com/trueai-org/midjourney-proxy)：市面上最强大，完全免费开源的免费绘图平台。
+- [MDrive](https://github.com/trueai-org/mdrive)：阿里云盘官方 API 授权的自动同步和备份工具，支持挂载到本地磁盘。
+- [Grok](https://github.com/trueai-org/grok)：使用 Deno 免费代理马斯克 Grok3，免登录，国内直连，不限地区/不限网络/不限设备，打开即用。
 
 ## Deno 部署
 
