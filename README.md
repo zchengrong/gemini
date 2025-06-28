@@ -12,6 +12,22 @@
 - [MDrive](https://github.com/trueai-org/mdrive)：阿里云盘官方 API 授权的自动同步和备份工具，支持挂载到本地磁盘。
 - [Grok](https://github.com/trueai-org/grok)：使用 Deno 免费代理马斯克 Grok3，免登录，国内直连，不限地区/不限网络/不限设备，打开即用。
 
+## 本地部署（推荐）
+
+> 由于 Deno 封锁问题，推荐使用本地部署到国外的服务器（例如：新加坡）
+
+```bash
+# 1. 克隆项目（如果还没有）
+git clone https://github.com/trueai-org/gemini.git
+cd gemini
+
+# 2. 给部署脚本执行权限
+chmod +x deploy.sh
+
+# 3. 运行部署
+./deploy.sh
+```
+
 ## Deno 部署
 
 > Bilibili 视频教程：<https://www.bilibili.com/video/BV1DDA3eEEYn/>
