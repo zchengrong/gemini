@@ -12,7 +12,8 @@ export default {
     // 添加 API 请求处理
     if (url.pathname.endsWith("/chat/completions") ||
         url.pathname.endsWith("/embeddings") ||
-        url.pathname.endsWith("/models")) {
+        url.pathname.endsWith("/models")) 
+		url.pathname.endsWith("/images/generations")) {
       return handleAPIRequest(request, env);
     }
 
